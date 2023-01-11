@@ -4,13 +4,9 @@
 ![GitHub forks](https://img.shields.io/github/forks/ImGabreuw/nlw-return?style=for-the-badge)
 ![Bitbucket open issues](https://img.shields.io/github/issues/ImGabreuw/nlw-return?style=for-the-badge)
 
-<img src="./docs/logo-fullcycle.png" height=200px weight=400px/>
-
-> O projeto CodePix é uma aplicações desenvolvida durante a Imersão FullCycle 7.0 que simula as transações via PIX entre bancos fictícios (_BBX_ e _CTDER_).
-
-## 🌎 Visão geral
-
 ![](./docs/assets/nlw-return.png)
+
+> Esse projeto é um widget para envio de feedbacks (opiniões e bugs) de usuários ao navegar no seu site.
 
 ## 💻 Pré-requisitos
 
@@ -35,8 +31,8 @@ $ git clone https://github.com/ImGabreuw/nlw-return.git
 # Navegar para o diretório raiz do projeto
 $ cd ./nlw-return
 
-# Definir os valores às variáveis de ambientes
-$ vim server ./server/.env.example
+# Definir os valores às variáveis de ambientes (edição no VS Code)
+$ code server ./server/.env.example
 
 # Inicializar a aplicação back-end
 $ cd ./server
