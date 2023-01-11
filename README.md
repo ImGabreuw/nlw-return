@@ -36,10 +36,12 @@ $ code server ./server/.env.example
 
 # Inicializar a aplicação back-end
 $ cd ./server
+$ npm i
 $ npm run start
 
 # Inicializar a aplicação web
 $ cd ../web
+$ npm i
 $ npm run preview
 ```
 
